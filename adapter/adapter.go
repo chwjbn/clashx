@@ -9,9 +9,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/Dreamacro/clash/common/queue"
-	"github.com/Dreamacro/clash/component/dialer"
-	C "github.com/Dreamacro/clash/constant"
+	"github.com/chwjbn/clashx/common/queue"
+	"github.com/chwjbn/clashx/component/dialer"
+	C "github.com/chwjbn/clashx/constant"
 
 	"go.uber.org/atomic"
 )

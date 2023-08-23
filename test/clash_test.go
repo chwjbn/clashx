@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Dreamacro/clash/adapter/outbound"
-	C "github.com/Dreamacro/clash/constant"
-	"github.com/Dreamacro/clash/hub/executor"
-	"github.com/Dreamacro/clash/transport/socks5"
+	"github.com/chwjbn/clashx/adapter/outbound"
+	C "github.com/chwjbn/clashx/constant"
+	"github.com/chwjbn/clashx/hub/executor"
+	"github.com/chwjbn/clashx/transport/socks5"
 
 	"github.com/docker/docker/api/types"
 	"github.com/docker/docker/client"

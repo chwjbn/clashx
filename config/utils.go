@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Dreamacro/clash/adapter/outboundgroup"
-	"github.com/Dreamacro/clash/common/structure"
+	"github.com/chwjbn/clashx/adapter/outboundgroup"
+	"github.com/chwjbn/clashx/common/structure"
 )
 
 func trimArr(arr []string) (r []string) {

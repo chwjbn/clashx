@@ -72,6 +72,8 @@ type Metadata struct {
 	DNSMode      DNSMode `json:"dnsMode"`
 	ProcessPath  string  `json:"processPath"`
 	SpecialProxy string  `json:"specialProxy"`
+	ProxyUser string  `json:"proxy_user"`
+	ProxyPass string `json:"proxy_pass"`
 }
 
 func (m *Metadata) RemoteAddress() string {

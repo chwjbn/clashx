@@ -99,5 +99,11 @@ func HandleSocks5(conn net.Conn, in chan<- C.ConnContext) {
 		io.Copy(io.Discard, conn)
 		return
 	}
-	in <- inbound.NewSocketWithAuth(target,authUser.Username,authUser.Password, conn, C.SOCKS5)
+
+	if authUser!=nil{
+		in <- inbound.NewSocketWithAuth(target,authUser.Username,authUser.Password, conn, C.SOCKS5)
+		return
+	}
+
+	in <- inbound.NewSocket(target, conn, C.SOCKS5)
 }
